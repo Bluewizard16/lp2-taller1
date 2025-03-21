@@ -18,7 +18,7 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 
 ## Instalación
 
-Morbi quam lectus, tempus sit amet mi non, facilisis dignissim erat. Aenean tortor libero, rhoncus eu eleifend ut, volutpat id nisi. Ut porta eros at ante rutrum pharetra. Integer nec nulla dictum, vestibulum ligula id, hendrerit ex. Morbi eget tortor metus.
+Podemos usar el bash escribiendo en cmd o poweshell "wsl"
 
 1. Clonar el proyecto
 ```bash
