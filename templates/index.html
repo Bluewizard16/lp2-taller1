@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
+    <title>Tienda</title>
 </head>
 <body>
     <h1>
-        Lorem Ipsum
+        Bienvenido a la tienda
     </h1>
-    <div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugiat iusto fuga vitae qui. Corrupti earum dolore quisquam sint omnis non suscipit, voluptatibus eligendi repellendus, veritatis libero. Minima, autem. Alias!
-        </p>
-    </div>
+    <ol>
+        {% for producto in productos %}
+            <li><a href="/producto/{{producto.nombre}}">{{producto.nombre}}</a></li>
+        {% endfor %}
+    </ol>
 </body>
 </html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto: {{producto.nombre}}</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename = '')}}{{producto.nombre}}.png"/>
+    <h3>Producto: {{producto.nombre}}</h3>
+    <h3>Precio: {{producto.precio}}</h3>
+    <br>
+    <button><a href="{{ url_for('index') }}">Regresar</a></button>
+</body>
+</html>
