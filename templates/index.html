@@ -10,6 +10,7 @@
         Bienvenido a la tienda
     </h1>
     <ol>
+        <!-- código JINJA {% for variable(local de JINJA) in variable(render_template)}-->
         {% for producto in productos %}
             <li><a href="/producto/{{producto.nombre}}">{{producto.nombre}}</a></li>
         {% endfor %}
